@@ -101,7 +101,7 @@ customer of the utility computing service is netflix which generally hosts almos
 on AWS.
 
 Though cloud computing only provides the physical infrastructure for SAAS. Scalibility needs to also be designed
-into the software. 
+into the software.      
 
 
 ## Legacy Code and Beautiful Code
