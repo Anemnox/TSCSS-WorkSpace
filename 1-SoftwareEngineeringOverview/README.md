@@ -1,6 +1,6 @@
 # What is Software Engineering?
 
-> **_NOTE:_**  This content comes from these [slides](http://faculty.washington.edu/wlloyd/courses/tcss360/tcss360_lecture_1.pdf). Much of the content is paraphrased from the lecture.
+> **_NOTE:_**  This content comes from these [slides](http://faculty.washington.edu/wlloyd/courses/tcss360/tcss360_lecture_1.pdf) and [videos](http://www.saasbook.info/videos). Much of the content is paraphrased from the lecture.
 
 There is a difference between a software engineer and a programmer. A software engineer
 has more thorough understanding of designing, creating, and  maintaining software systems
@@ -101,7 +101,7 @@ customer of the utility computing service is netflix which generally hosts almos
 on AWS.
 
 Though cloud computing only provides the physical infrastructure for SAAS. Scalibility needs to also be designed
-into the software.      
+into the software.
 
 
 ## Legacy Code and Beautiful Code
@@ -113,7 +113,32 @@ engineers often strive to write beautiful code: code that properly performs its 
 to evolve. Agile techniques can make managing legacy code easier with its focus on embracing change; legacy code can also be beautiful code.
 
 The quality of the software can be benchmarked with a few characteristics: functionality, reliability, usability,
-maintainability, efficiency, and portability.
+maintainability, efficiency, and portability. The goal with software is to make sure that it is built correctly
+(verification) and it is the correct thing to build (validation). Verification focuses on the hardware design and
+performance while validation focuses on the software design.
+
+During the validation stage, software designers lay out the groundwork and architecture for the software. This can be
+compared to the plan and document stage of developing software; first, the requirements are considered, the system is
+analyzed, the overall software is designed, and the modules are designed. This is the precursor to the development.
+
+For the verification stage, the software is tested in order to verify that the software does what the developers intended
+it to do. This is the unit tests (module level), integration tests (software level), system tests (systems level), and the
+acceptence tests (requirement level). The verification step is generally done before deployment and makes sure that the
+software works as intended.
+
+## Testing
+
+Exhaustive testing may be infeasible but software developers should strive to test as much of the code as possible. The
+stages of testing is divided at different phases of the software's development. Unit tests are generally done by the
+developer in order to check if the method is functioning correctly. Integration Tests are done by the developers and
+testers to make sure that the interfaces between units are communicating correctly. The system test is done by the
+tester to check if the program meets requirements and expectations. Finally, the acceptance test is done by the end user
+(or customer) in order to make sure that they are satisfied by the product.
+
+> Some definitions to note is coverage: the percentage of the system that is covered by a test suite.
+
+One thing to keep in mind is that 100% test coverage may ensure design reliability but does not ensure that the right
+software has been created.
 
 
 
