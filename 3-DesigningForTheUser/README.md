@@ -60,10 +60,10 @@ mean the developer will want to consider how the system behavior is described in
 the user's point of view and what the user can perceive externally.
 
 A good use case will start with a request from an actor to the system (Note:
-  that actors can be something other than a human user that uses the system).
-  The use case will end with all of the answers to the requests and be defined
-  by the interaction of the requests. And, a good use case takes into account
-  the actor's point of view compared to the system.
+that actors can be something other than a human user that uses the system). The
+use case will end with all of the answers to the requests and be defined by the
+interaction of the requests. And, a good use case takes into account the actor's
+point of view compared to the system.
 
 >This is sort of like the difference between knowing the behavior of the system
 in comparison to the implementation of the system. This is similar to the black
